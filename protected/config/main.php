@@ -23,11 +23,13 @@ return array(
 		/*
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'Enter Your Password Here',
+			'password'=>'123456',
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('127.0.0.1','::1'),
+			'ipFilters'=>array('192.168.0.1','::1'),
 		),
 		*/
+		
+		 'demo1',	// modulo para mostrar un maestro detalle
 	),
 
 	// application components
@@ -47,9 +49,11 @@ return array(
 			),
 		),
 		*/
+		
 		'db'=>array(
-			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
+			'connectionString' => 'sqlite:protected/data/testdrive.db',
 		),
+		
 		// uncomment the following to use a MySQL database
 		/*
 		'db'=>array(
@@ -60,6 +64,7 @@ return array(
 			'charset' => 'utf8',
 		),
 		*/
+		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
             'errorAction'=>'site/error',
@@ -69,7 +74,7 @@ return array(
 			'routes'=>array(
 				array(
 					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
+					'levels'=>'error, warning, info',
 				),
 				// uncomment the following to show log messages on web pages
 				/*
