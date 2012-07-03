@@ -1,232 +1,107 @@
-2012/07/03 13:25:32 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:52:09 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:25:46 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:52:09 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (28)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:05 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:52:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "/demo1"' in E:\apps\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/demo1')
+#1 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=/demo1
+2012/07/03 16:54:01 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:06 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=1
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:54:01 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (28)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:07 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:54:01 [error] [exception.CException] exception 'CException' with message 'Propiedad "CWebApplication"."_moduleConfig" no se encuentra definida.' in E:\apps\yii\framework\base\CComponent.php:174
+Stack trace:
+#0 E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php(29): CComponent->__set('_moduleConfig', 'demo1')
+#1 E:\apps\yii\framework\base\CModule.php(372): DemoSetup->init()
+#2 E:\apps\yii\framework\base\CModule.php(477): CModule->getComponent('demoloader')
+#3 E:\apps\yii\framework\base\CApplication.php(142): CModule->preloadComponents()
+#4 E:\apps\yii\framework\YiiBase.php(128): CApplication->__construct('E:\code\yiifram...')
+#5 E:\apps\yii\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'E:\code\yiifram...')
+#6 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): YiiBase::createWebApplication('E:\code\yiifram...')
+#7 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=/demo1
+2012/07/03 16:54:13 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:08 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=3
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:54:13 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (28)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:36 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:54:13 [error] [php] Attempt to assign property of non-object (E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php:29)
+Stack trace:
+#0 E:\apps\yii\framework\base\CApplication.php(142): CWebApplication->preloadComponents()
+#1 E:\apps\yii\framework\YiiBase.php(128): CWebApplication->__construct()
+#2 E:\apps\yii\framework\YiiBase.php(100): createApplication()
+#3 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): createWebApplication()
+REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=/demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:38 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=1
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:56:17 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:39 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=3
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:56:17 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:41 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:56:30 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:42 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=1
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:56:30 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:43 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:59:36 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:44 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=3
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:59:36 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:45 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:59:38 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:46 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=1
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
+2012/07/03 16:59:38 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:47 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:48 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=3
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:49 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:26:50 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=1
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (24)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:29 [info] [application] 
+2012/07/03 16:59:38 [info] [application] 
 AJAX_REQUEST
 PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
 idcategoria seleccionada es=2
 in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:30 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=1
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
+2012/07/03 16:59:41 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:31 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
+2012/07/03 16:59:41 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:32 [info] [application] 
+2012/07/03 16:59:41 [info] [application] 
 AJAX_REQUEST
 PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
 idcategoria seleccionada es=3
 in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:34 [info] [application] 
+2012/07/03 16:59:42 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/03 16:59:42 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/03 16:59:42 [info] [application] 
 AJAX_REQUEST
 PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
 idcategoria seleccionada es=2
 in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:35 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=1
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
+2012/07/03 16:59:42 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:36 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
+2012/07/03 16:59:42 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:37 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=3
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:39 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=3
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:39 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:41 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=1
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:41 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:43 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:44 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=3
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:46 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:46 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=1
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:48 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:49 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=3
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:50 [info] [application] 
-AJAX_REQUEST
-PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
-idcategoria seleccionada es=2
-in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
-in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
-2012/07/03 13:28:51 [info] [application] 
+2012/07/03 16:59:43 [info] [application] 
 AJAX_REQUEST
 PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
 idcategoria seleccionada es=1

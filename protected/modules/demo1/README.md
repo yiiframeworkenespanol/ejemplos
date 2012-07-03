@@ -1,10 +1,7 @@
-demo1
------
-
-@author: Christian Salazar H. <christiansalazarh@gmail.com> @bluyell
-
+##Maestro-Detalle con CGridView y Ajax
+####Christian Salazar H. <christiansalazarh@gmail.com> @bluyell
+####how-to
 Ejemplo clasico del maestro-detalle aplicado en Yii Framework.
-
 Se mostrara una lista de categorias usando un CGridView y cuando a una fila seleccionada le demos click al icono de "ver" (view) entonces que abajo aparezcan los productos de la categoria en otro CGridView.
 
 Disponemos de dos tablas: Categoria y Productos, de esta forma:
@@ -22,8 +19,3 @@ Disponemos de dos tablas: Categoria y Productos, de esta forma:
 	5|2|pantalones|1200.0
 	6|3|cereales|80.0
 	7|3|granos|25.0
-
-
-
-
-

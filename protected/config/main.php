@@ -7,10 +7,11 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Yii Framework en Espanol - Demos',
+	'language'=>'es',
 
 	// preloading 'log' component
-	'preload'=>array('log'),
+	'preload'=>array('log','demoloader'),
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -29,11 +30,16 @@ return array(
 		),
 		*/
 		
-		 'demo1',	// modulo para mostrar un maestro detalle
+		// 'demo1',	// modulo para mostrar un maestro detalle
 	),
 
 	// application components
 	'components'=>array(
+	
+		'demoloader'=>array(
+			'class'=>'application.components.DemoSetup',
+		),
+	
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,

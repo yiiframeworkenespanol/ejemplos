@@ -9,7 +9,7 @@
 
 	@author: Christian Salazar H. <christiansalazarh@gmail.com> @bluyell
 */
-class DemoSetup {
+class DemoSetup extends CApplicationComponent {
 	/*	@stringDbname:	nombre de la base de datos de SqLite previamente creada y configurada.
 		usage:	DemoSetup::usar('demo1');
 		@author: Christian Salazar H. <christiansalazarh@gmail.com> @bluyell
@@ -18,5 +18,18 @@ class DemoSetup {
 		Yii::app()->db->active=false;		
 		Yii::app()->db->connectionString = 'sqlite:protected/data/'.$stringDbname.'.db';
 		Yii::app()->db->active=true;
+	}
+	
+	public function init(){
+		Yii::log("iniciando demos...");
+		$modulos = scandir("protected/modules");
+		$arr = array();
+		foreach($modulos as $f){
+			if(($f != '.') && ($f != '..')){
+				Yii::log("DEMO: ".$f);
+				$arr[] = $f;
+			}
+		}
+		Yii::app()->modules = $arr;
 	}
 }

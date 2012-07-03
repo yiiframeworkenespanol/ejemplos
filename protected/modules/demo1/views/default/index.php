@@ -1,4 +1,4 @@
-<h1>Demo 1</h2>
+<h1>Maestro Detalle con CGridView y Ajax</h2>
 <p>Ejemplo de maestro-detalle</p>
 <p>El objeto es que al hacerle click al icono view se presente debajo una lista con los productos asociados a la categoria principal</p>
 <div id='log'></div>
