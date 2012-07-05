@@ -11,12 +11,17 @@
 */
 class DemoSetup extends CApplicationComponent {
 	/*	@stringDbname:	nombre de la base de datos de SqLite previamente creada y configurada.
-		usage:	DemoSetup::usar('demo1');
+	
+		la base de datos de cada modulo debe guardarse bajo
+		
+		protected/modules/TUMODULO/data/data.db
+	
+		usage:	DemoSetup::usar('demo1'); <-- nombre del modulo, no de la db, 
 		@author: Christian Salazar H. <christiansalazarh@gmail.com> @bluyell
 	*/
-	public static function usar($stringDbname){
+	public static function usar($moduleName){
 		Yii::app()->db->active=false;		
-		Yii::app()->db->connectionString = 'sqlite:protected/data/'.$stringDbname.'.db';
+		Yii::app()->db->connectionString = 'sqlite:protected/modules/'.$moduleName.'/data/data.db';
 		Yii::app()->db->active=true;
 	}
 	

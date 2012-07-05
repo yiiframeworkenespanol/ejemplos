@@ -107,3 +107,737 @@ PROVOCADO_POR_EL_UPDATE_AL_CGRIDVIEW_PRODUCTOS
 idcategoria seleccionada es=1
 in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\controllers\DefaultController.php (28)
 in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/04 11:13:19 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/04 11:13:19 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:47:47 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:47:47 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:47:47 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:47:47 [error] [exception.CException] exception 'CException' with message 'Alias "democgridviewseleccionajaxaction.DemocgridviewseleccionajaxactionModule" is invalid. Make sure it points to an existing PHP file.' in E:\apps\yii\framework\YiiBase.php:321
+Stack trace:
+#0 E:\apps\yii\framework\YiiBase.php(201): YiiBase::import('democgridviewse...', true)
+#1 E:\apps\yii\framework\base\CModule.php(266): YiiBase::createComponent('democgridviewse...', 'democgridviewse...', NULL, Array)
+#2 E:\apps\yii\framework\web\CWebApplication.php(351): CModule->getModule('democgridviewse...')
+#3 E:\apps\yii\framework\web\CWebApplication.php(277): CWebApplication->createController('/democgridviews...')
+#4 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#5 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#6 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#7 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=/democgridviewseleccionajaxaction
+2012/07/05 11:48:40 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:48:40 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:48:40 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:48:40 [error] [php] YiiBase::include(DemocgridviewseleccionajaxactionModule.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (E:\apps\yii\framework\YiiBase.php:421)
+Stack trace:
+#0 E:\apps\yii\framework\YiiBase.php(211): spl_autoload_call()
+#1 E:\apps\yii\framework\base\CModule.php(266): createComponent()
+#2 E:\apps\yii\framework\web\CWebApplication.php(351): CWebApplication->getModule()
+#3 E:\apps\yii\framework\web\CWebApplication.php(277): CWebApplication->createController()
+#4 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController()
+#5 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#6 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=/democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:48:53 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:48:53 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:48:53 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:05 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:05 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:05 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:08 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:08 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:08 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "default/obtenerproductos"' in E:\apps\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('default/obtener...')
+#1 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=default/obtenerproductos&idcategoria=2
+2012/07/05 11:53:12 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:12 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:12 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "default/obtenerproductos"' in E:\apps\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('default/obtener...')
+#1 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=default/obtenerproductos&idcategoria=3
+2012/07/05 11:53:28 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:28 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:28 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:30 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:30 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:30 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "default/obtenerproductos"' in E:\apps\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('default/obtener...')
+#1 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=default/obtenerproductos&idcategoria=2
+2012/07/05 11:53:31 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:31 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:31 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "default/obtenerproductos"' in E:\apps\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('default/obtener...')
+#1 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=default/obtenerproductos&idcategoria=3
+2012/07/05 11:53:43 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:43 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:43 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:46 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:46 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:46 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:53:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "default/obtenerproductos"' in E:\apps\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('default/obtener...')
+#1 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=default/obtenerproductos&idcategoria=2
+2012/07/05 11:54:09 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:09 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:09 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:14 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:14 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:14 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "default/obtenerproductos"' in E:\apps\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('default/obtener...')
+#1 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=default/obtenerproductos&idcategoria=2
+2012/07/05 11:54:23 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:23 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:23 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:28 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:28 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:28 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "default/obtenerproductos"' in E:\apps\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('default/obtener...')
+#1 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=default/obtenerproductos&idcategoria=2
+2012/07/05 11:54:43 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:43 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:43 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:54:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "/democgridviewseleccionajaxaction/index.php?r=default/obtenerproductos"' in E:\apps\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#1 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=/democgridviewseleccionajaxaction/index.php?r=default/obtenerproductos&idcategoria=2
+2012/07/05 11:55:01 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:01 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:01 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "default/obtenerproductos"' in E:\apps\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('default/obtener...')
+#1 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=default/obtenerproductos&idcategoria=2
+2012/07/05 11:55:23 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:23 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:23 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:25 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:25 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:25 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "default/obtenerproductos"' in E:\apps\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('default/obtener...')
+#1 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=default/obtenerproductos&idcategoria=2
+2012/07/05 11:55:27 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:27 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:27 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "default/obtenerproductos"' in E:\apps\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('default/obtener...')
+#1 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos//index.php?r=default/obtenerproductos&idcategoria=3
+2012/07/05 11:55:59 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:59 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:55:59 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:56:21 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:56:21 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:56:21 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:56:23 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:56:23 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:56:23 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:56:23 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "producto" definida en la clase active record "Producto" no se ha podido encontrar en la base de datos.' in E:\apps\yii\framework\db\ar\CActiveRecord.php:2283
+Stack trace:
+#0 E:\apps\yii\framework\db\ar\CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Producto))
+#1 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\models\Producto.php(6): CActiveRecord::model('Producto')
+#2 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php(57): Producto::model()
+#3 [internal function]: DefaultController->actionObtenerProductos('2')
+#4 E:\apps\yii\framework\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#5 E:\apps\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#6 E:\apps\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\apps\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\apps\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\apps\yii\framework\web\CWebApplication.php(283): CController->run('obtenerproducto...')
+#10 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#11 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#12 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos/index.php?r=/democgridviewseleccionajaxaction/default/obtenerproductos&idcategoria=2
+2012/07/05 11:56:25 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:56:25 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:56:25 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:56:25 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "producto" definida en la clase active record "Producto" no se ha podido encontrar en la base de datos.' in E:\apps\yii\framework\db\ar\CActiveRecord.php:2283
+Stack trace:
+#0 E:\apps\yii\framework\db\ar\CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Producto))
+#1 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\models\Producto.php(6): CActiveRecord::model('Producto')
+#2 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php(57): Producto::model()
+#3 [internal function]: DefaultController->actionObtenerProductos('3')
+#4 E:\apps\yii\framework\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#5 E:\apps\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#6 E:\apps\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\apps\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\apps\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\apps\yii\framework\web\CWebApplication.php(283): CController->run('obtenerproducto...')
+#10 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#11 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#12 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos/index.php?r=/democgridviewseleccionajaxaction/default/obtenerproductos&idcategoria=3
+2012/07/05 11:57:04 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:57:04 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:57:04 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:57:09 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:57:09 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:57:09 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:57:09 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "producto" definida en la clase active record "Producto" no se ha podido encontrar en la base de datos.' in E:\apps\yii\framework\db\ar\CActiveRecord.php:2283
+Stack trace:
+#0 E:\apps\yii\framework\db\ar\CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Producto))
+#1 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\models\Producto.php(6): CActiveRecord::model('Producto')
+#2 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php(57): Producto::model()
+#3 [internal function]: DefaultController->actionObtenerProductos('2')
+#4 E:\apps\yii\framework\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#5 E:\apps\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#6 E:\apps\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\apps\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\apps\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\apps\yii\framework\web\CWebApplication.php(283): CController->run('obtenerproducto...')
+#10 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#11 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#12 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos/index.php?r=/democgridviewseleccionajaxaction/default/obtenerproductos&idcategoria=2
+2012/07/05 11:57:24 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:57:24 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:57:24 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:57:24 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "producto" definida en la clase active record "Producto" no se ha podido encontrar en la base de datos.' in E:\apps\yii\framework\db\ar\CActiveRecord.php:2283
+Stack trace:
+#0 E:\apps\yii\framework\db\ar\CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Producto))
+#1 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\models\Producto.php(6): CActiveRecord::model('Producto')
+#2 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php(57): Producto::model()
+#3 [internal function]: DefaultController->actionObtenerProductos('2')
+#4 E:\apps\yii\framework\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#5 E:\apps\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#6 E:\apps\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\apps\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\apps\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\apps\yii\framework\web\CWebApplication.php(283): CController->run('obtenerproducto...')
+#10 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#11 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#12 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos/index.php?r=/democgridviewseleccionajaxaction/default/obtenerproductos&idcategoria=2
+2012/07/05 11:59:00 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:59:00 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:59:00 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:59:03 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:59:03 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:59:03 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 11:59:03 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "producto" definida en la clase active record "Producto" no se ha podido encontrar en la base de datos.' in E:\apps\yii\framework\db\ar\CActiveRecord.php:2283
+Stack trace:
+#0 E:\apps\yii\framework\db\ar\CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Producto))
+#1 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\models\Producto.php(6): CActiveRecord::model('Producto')
+#2 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php(57): Producto::model()
+#3 [internal function]: DefaultController->actionObtenerProductos('2')
+#4 E:\apps\yii\framework\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#5 E:\apps\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#6 E:\apps\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\apps\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\apps\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\apps\yii\framework\web\CWebApplication.php(283): CController->run('obtenerproducto...')
+#10 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#11 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#12 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos/index.php?r=/democgridviewseleccionajaxaction/default/obtenerproductos&idcategoria=2
+2012/07/05 12:00:23 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:00:23 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:00:23 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:00:29 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:00:29 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:00:29 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:00:29 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "producto" definida en la clase active record "Producto" no se ha podido encontrar en la base de datos.' in E:\apps\yii\framework\db\ar\CActiveRecord.php:2283
+Stack trace:
+#0 E:\apps\yii\framework\db\ar\CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Producto))
+#1 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\models\Producto.php(6): CActiveRecord::model('Producto')
+#2 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php(57): Producto::model()
+#3 [internal function]: DefaultController->actionObtenerProductos('2')
+#4 E:\apps\yii\framework\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#5 E:\apps\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#6 E:\apps\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\apps\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\apps\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\apps\yii\framework\web\CWebApplication.php(283): CController->run('obtenerproducto...')
+#10 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#11 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#12 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos/index.php?r=/democgridviewseleccionajaxaction/default/obtenerproductos&idcategoria=2
+2012/07/05 12:00:57 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:00:57 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:00:57 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:01:03 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:01:03 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:01:03 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:01:05 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (24)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:01:05 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:01:05 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (29)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:01:05 [error] [exception.CDbException] exception 'CDbException' with message 'La tabla "producto" definida en la clase active record "Producto" no se ha podido encontrar en la base de datos.' in E:\apps\yii\framework\db\ar\CActiveRecord.php:2283
+Stack trace:
+#0 E:\apps\yii\framework\db\ar\CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Producto))
+#1 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\demo1\models\Producto.php(6): CActiveRecord::model('Producto')
+#2 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php(57): Producto::model()
+#3 [internal function]: DefaultController->actionObtenerProductos('2')
+#4 E:\apps\yii\framework\web\actions\CAction.php(104): ReflectionMethod->invokeArgs(Object(DefaultController), Array)
+#5 E:\apps\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(DefaultController), Object(ReflectionMethod), Array)
+#6 E:\apps\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#7 E:\apps\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#8 E:\apps\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\apps\yii\framework\web\CWebApplication.php(283): CController->run('obtenerproducto...')
+#10 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#11 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#12 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos/index.php?r=/democgridviewseleccionajaxaction/default/obtenerproductos&idcategoria=2
+2012/07/05 12:05:42 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:05:42 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:05:42 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:05:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection falló al abrir la conexion a la base de datos: SQLSTATE[HY000] [14] unable to open database file' in E:\apps\yii\framework\db\CDbConnection.php:364
+Stack trace:
+#0 E:\apps\yii\framework\db\CDbConnection.php(313): CDbConnection->open()
+#1 E:\apps\yii\framework\base\CComponent.php(153): CDbConnection->setActive(true)
+#2 E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php(26): CComponent->__set('active', true)
+#3 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php(13): DemoSetup::usarDataModule('democgridviewse...')
+#4 E:\apps\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 E:\apps\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#6 E:\apps\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#7 E:\apps\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\apps\yii\framework\web\CWebApplication.php(283): CController->run('')
+#9 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#10 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#11 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#12 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos/index.php?r=/democgridviewseleccionajaxaction
+2012/07/05 12:05:55 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:05:55 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:05:55 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:07:26 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:07:27 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:07:27 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:07:27 [error] [exception.CException] exception 'CException' with message 'DefaultController and its behaviors do not have a method or closure named "getParentModule".' in E:\apps\yii\framework\base\CComponent.php:269
+Stack trace:
+#0 [internal function]: CComponent->__call('getParentModule', Array)
+#1 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php(13): DefaultController->getParentModule()
+#2 E:\apps\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#3 E:\apps\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#4 E:\apps\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 E:\apps\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\apps\yii\framework\web\CWebApplication.php(283): CController->run('')
+#7 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#8 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#9 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos/index.php?r=/democgridviewseleccionajaxaction
+2012/07/05 12:07:37 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:07:37 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:07:37 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:07:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection falló al abrir la conexion a la base de datos: SQLSTATE[HY000] [14] unable to open database file' in E:\apps\yii\framework\db\CDbConnection.php:364
+Stack trace:
+#0 E:\apps\yii\framework\db\CDbConnection.php(313): CDbConnection->open()
+#1 E:\apps\yii\framework\base\CComponent.php(153): CDbConnection->setActive(true)
+#2 E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php(26): CComponent->__set('active', true)
+#3 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php(13): DemoSetup::usarDataModule(NULL)
+#4 E:\apps\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#5 E:\apps\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#6 E:\apps\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#7 E:\apps\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\apps\yii\framework\web\CWebApplication.php(283): CController->run('')
+#9 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#10 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#11 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#12 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos/index.php?r=/democgridviewseleccionajaxaction
+2012/07/05 12:10:46 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:10:46 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:10:46 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:10:47 [error] [php] Missing argument 1 for CModule::getModule(), called in E:\apps\yii\framework\base\CComponent.php on line 112 and defined (E:\apps\yii\framework\base\CModule.php:253)
+Stack trace:
+#0 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php(13): CWebApplication->__get()
+#1 E:\apps\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#2 E:\apps\yii\framework\web\CController.php(300): CInlineAction->runWithParams()
+#3 E:\apps\yii\framework\web\CController.php(278): DefaultController->runAction()
+#4 E:\apps\yii\framework\web\CController.php(257): DefaultController->runActionWithFilters()
+#5 E:\apps\yii\framework\web\CWebApplication.php(283): DefaultController->run()
+#6 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController()
+#7 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#8 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiframeworkenespanol/ejemplos/index.php?r=/democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php (13)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:10:57 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:10:57 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:10:57 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:10:57 [error] [exception.CException] exception 'CException' with message 'Propiedad "CWebApplication"."modulename" no se encuentra definida.' in E:\apps\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 E:\apps\yii\framework\base\CModule.php(88): CComponent->__get('modulename')
+#1 E:\code\yiiframeworkenespanol\ejemplos\protected\modules\democgridviewseleccionajaxaction\controllers\DefaultController.php(13): CModule->__get('modulename')
+#2 E:\apps\yii\framework\web\actions\CInlineAction.php(50): DefaultController->actionIndex()
+#3 E:\apps\yii\framework\web\CController.php(300): CInlineAction->runWithParams(Array)
+#4 E:\apps\yii\framework\web\CController.php(278): CController->runAction(Object(CInlineAction))
+#5 E:\apps\yii\framework\web\CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\apps\yii\framework\web\CWebApplication.php(283): CController->run('')
+#7 E:\apps\yii\framework\web\CWebApplication.php(139): CWebApplication->runController('/democgridviews...')
+#8 E:\apps\yii\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#9 E:\code\yiiframeworkenespanol\ejemplos\index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/yiiframeworkenespanol/ejemplos/index.php?r=/democgridviewseleccionajaxaction
+2012/07/05 12:14:06 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:06 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:06 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:08 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:08 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:08 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:18 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:18 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:18 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:21 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:21 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:21 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:22 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:22 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:22 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:23 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:23 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:23 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:24 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:24 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:24 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:25 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:25 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:25 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:27 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:27 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:27 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:28 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:28 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:28 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:29 [info] [application] iniciando demos...
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (30)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:29 [info] [application] DEMO: demo1
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
+2012/07/05 12:14:29 [info] [application] DEMO: democgridviewseleccionajaxaction
+in E:\code\yiiframeworkenespanol\ejemplos\protected\components\DemoSetup.php (35)
+in E:\code\yiiframeworkenespanol\ejemplos\index.php (13)
