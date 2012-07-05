@@ -2,7 +2,7 @@
 class DefaultController extends Controller
 {
 	private function selectdb(){
-		DemoSetup::usarDataModule("democgridviewseleccionajaxaction");
+		DemoSetup::usar("democgridviewseleccionajaxaction");
 	}
 
 	/*
