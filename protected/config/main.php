@@ -21,25 +21,25 @@ return array(
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
-		/*
+
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'123456',
 		 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('192.168.0.1','::1'),
+			'ipFilters'=>array('127.0.0.1','::1'),
 		),
-		*/
-		
+
+
 		// 'demo1',	// modulo para mostrar un maestro detalle
 	),
 
 	// application components
 	'components'=>array(
-	
+
 		'demoloader'=>array(
 			'class'=>'application.components.DemoSetup',
 		),
-	
+
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
@@ -55,11 +55,11 @@ return array(
 			),
 		),
 		*/
-		
+
 		'db'=>array(
 			'connectionString' => 'sqlite:protected/data/testdrive.db',
 		),
-		
+
 		// uncomment the following to use a MySQL database
 		/*
 		'db'=>array(
@@ -70,7 +70,7 @@ return array(
 			'charset' => 'utf8',
 		),
 		*/
-		
+
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
             'errorAction'=>'site/error',
