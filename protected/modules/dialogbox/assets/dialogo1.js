@@ -109,6 +109,24 @@ var Dialogo1 = function(options) {
 			},
 			open:function(){
 				// inicializa el dialogo
+				// si quisieras inicializar el dialogo
+				// con datos existentes solo tienes que poner
+				// aqui el codigo necesario:
+			
+				// por ejemplo, podrias consultar via ajax
+				// a un action aqui mismo para obtener un JSON
+				// con los datos del usuario
+/*
+				$.getJSON('algun action aqui', function(usuario) {
+					siendo 'usuario' un objeto json
+					el cual fue construido en el action
+					y el cual podria usarse asi:
+					form.setField('cedula',usuario.cedula);
+				});
+*/	
+				form.setField('cedula','123456');
+				form.setField('nombre','juan');
+				form.setField('apellido','perez');
 			}
 		};
 		dialogo1.dialog(opcionesDelDialogo);
